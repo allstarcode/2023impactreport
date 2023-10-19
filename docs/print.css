@@ -1,0 +1,40 @@
+/* @media print {
+} */
+
+@page {
+  margin: 0cm;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  opacity: 1;
+}
+
+#app {
+  padding: 2rem 8rem;
+  /* background-color: white; */
+}
+
+#maincont {
+  background-color: white;
+}
+
+#maincont > #left > header {
+  background-color: transparent;
+}
+
+
+footer, aside, nav, form, iframe, progress, .menu, .hero, .adslot {
+  display: none !important;
+}
+
+/* h1 {
+  break-before: always;
+} */
+
+table, img, svg {
+  break-inside: avoid;
+}
